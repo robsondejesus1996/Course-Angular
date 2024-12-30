@@ -8,4 +8,19 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  name = "Robson";
+
+  idButton= "1234idButton";
+
+  meuBooleano = false;
+
+  atualizaBooleano(valor: boolean){
+    this.meuBooleano = valor;
+  }
+
+
+  submit(event: any){
+    console.log(event);
+  }
+
 }
